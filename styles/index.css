@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+}
+
+header {
+}
+
+nav {
+	display: flex;
+	background-color: #448;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+	border-right: 1px solid #bbb
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+nav a {
+	display: block;
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+ul.intro {
+	list-style-type: none;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+}
+
+img.footer_img {
+	max-height: 30px;
+}
