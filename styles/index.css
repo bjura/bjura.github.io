@@ -8,49 +8,79 @@ body{
 header {
 }
 
+/* Navigation bar */
 nav {
 	display: flex;
 	background-color: #448;
 }
-
 nav ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
-
 nav li {
 	float: left;
 	border-right: 1px solid #bbb
 }
-
 nav li:last-child {
 	border-right: none;
 }
-
 nav a {
 	display: block;
 	color: white;
-	padding: 14px 20px;
+	padding: 12pt 18pt;
 	text-decoration: none;
 	text-align: center;
 }
-
 nav a:hover {
 	background-color: #ddd;
 	color: black;
 }
+@media screen and (max-width: 600px) {
+  nav li {
+    float: none;
+    display: block;
+	border-right: none;
+	border-top: 1px solid #bbb
+  }
+}
 
+/* Home */
 ul.intro {
 	list-style-type: none;
 }
 
+/* Footer */
 footer {
-	padding: 20px;
+	padding: 10pt;
 	text-align: center;
 	background: #ddd;
 }
-
 img.footer_img {
-	max-height: 30px;
+	max-height: 2em
+}
+
+/* Publications */
+p.paper_description {
+	margin-left: 10pt 
+}
+
+/* Programming */
+img.python {
+	height: 1em 
+}
+
+/* About me */
+img.me {
+	max-width: 15%
+}
+img.ibib {
+	height: 1.5em
+}
+img.maze {
+	max-width: 10%
+}
+
+img.pdf {
+	height: 2em
 }
