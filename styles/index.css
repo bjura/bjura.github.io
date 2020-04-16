@@ -80,7 +80,9 @@ img.ibib {
 img.maze {
 	max-width: 10%
 }
-
 img.pdf {
 	height: 2em
+}
+img.links {
+	height: 1em 
 }
